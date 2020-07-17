@@ -1,4 +1,4 @@
-package com.geekbrains.lesson1;
+package com.geekbrains.lesson1.firstMission;
 
 public class Person {
 
@@ -34,36 +34,44 @@ public class Person {
         private String gander;
         private int age;
 
-        public void setFirstName(String firstName) {
+        public Builder setFirstName(String firstName) {
             this.firstName = firstName;
+            return this;
         }
 
-        public void setSecondName(String secondName) {
+        public Builder setSecondName(String secondName) {
             this.secondName = secondName;
+            return this;
         }
 
-        public void setMiddleName(String middleName) {
+        public Builder setMiddleName(String middleName) {
             this.middleName = middleName;
+            return this;
         }
 
-        public void setCountry(String country) {
+        public Builder setCountry(String country) {
             this.country = country;
+            return this;
         }
 
-        public void setAddress(String address) {
+        public Builder setAddress(String address) {
             this.address = address;
+            return this;
         }
 
-        public void setPhone(String phone) {
+        public Builder setPhone(String phone) {
             this.phone = phone;
+            return this;
         }
 
-        public void setGander(String gander) {
+        public Builder setGander(String gander) {
             this.gander = gander;
+            return this;
         }
 
-        public void setAge(int age) {
+        public Builder setAge(int age) {
             this.age = age;
+            return this;
         }
 
         public Person creatPerson() {
