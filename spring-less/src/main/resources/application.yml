@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/student?useUnicode=true&characterEncoding=utf8
+    driver-class-name: org.postgresql.Driver
+    username: seva
+    password: Januar15
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+  thymeleaf:
+    cache: false
